@@ -4,7 +4,7 @@
 
 ![Walkthrough](walkthrough.gif)
 
-A simple example how to create ["full-screen slides"](https://webdesign.tutsplus.com/articles/current-web-design-trends-full-on-full-screen-home-pages--cms-25490) on a home page with HTML5 and CSS3
+A simple example how to create ["full-screen slides"](https://webdesign.tutsplus.com/articles/current-web-design-trends-full-on-full-screen-home-pages--cms-25490) on a home page with HTML5 and CSS3.
 
 ## Summary
 
