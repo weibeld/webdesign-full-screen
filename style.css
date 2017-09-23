@@ -1,0 +1,41 @@
+/* Reference for horizontally and vertically centering things:
+ * https://www.w3.org/Style/Examples/007/center.en.html */
+
+body {
+  font-family: sans-serif;
+  font-size: 20px;
+  margin: 0;
+}
+
+.full {
+  width: 100vw;
+  height: 100vh;
+  /* Vertically and horizontally center content */
+  display: flex;
+  align-items: center;      /* Vertically */
+  justify-content: center;  /* Horizontally */
+
+  /* Alternative way to vertically and horizontally centering */
+  /*
+   position: relative;
+  */
+}
+
+.title {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 5rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  color: #E9E9E9;
+  background-color: black;
+
+  /* Alternative way to vertically and horizontally centering */
+  /*
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);  /* Move by 50% of element's own W and H */
+  */
+}
